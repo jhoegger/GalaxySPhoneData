@@ -1,5 +1,12 @@
+## Coursera project for Getting and Cleaning Data
+## https://class.coursera.org/getdata-007/human_grading/view/courses/972585/assessments/3/submissions
 
-setwd("C:/Projects/Coursera-DS/3.Data-week1/3.Data-CourseWork/UCI HAR Dataset")
+## This is using data from:
+##http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+## JHoegger - September 2014
+
+##setwd("C:/Projects/Coursera-DS/3.Data-week1/3.Data-CourseWork/UCI HAR Dataset")
 
 #####################################################
 #    1.Merges the training and the test sets to create one data set
