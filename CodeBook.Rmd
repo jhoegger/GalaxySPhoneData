@@ -1,17 +1,290 @@
 
 Getting and Cleaning Data
 -----------------------------
-
----
-title: "CodeBook"
-author: "JHoegger"
+####title: "CodeBook"
+####author: "JHoegger"
 ---
 
-# About the Data
+## About the Data
 
-### The data used  represent data collected from the accelerometers from the Samsung Galaxy S smartphon###e. A full description is available at the site where the data was obtained: 
-###http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+The data used  represent data collected from the Accelerationelerometers from 
+the Samsung Galaxy S smartphone. A full description is available at the site
+where the data was obtained: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 
+## About the variables
+
+### student and ID
+- This is the ID of each of the 30 student and s that took part in the study 
+
+#### Activity
+- This is one of 6 activities 
+	-walking
+	-walking upstairs
+	-walking downstairs
+	-sitting
+	-standing
+	-laying
 
 
+There were 89 summary variables in the final data table. They are described below
+The ranges of the values for all of the variables listed below have been normalized to be between -1 and 1
+
+#### AverageTimeBodyAccelerationMeanX
+  - Averages of Mean Acceleration in the X direction for each student and activity 
+
+#### AverageTimeBodyAccelerationMeanY
+  - Averages of Mean Acceleration in the Y direction for each student and activity 
+
+#### AverageTimeBodyAccelerationMeanZ
+  - Averages of Mean Acceleration in the Z direction for each student and activity 
+
+#### AverageTimeBodyAccelerationSTDX
+  - Averages of TimeBodyAccelerationSTDX for each student and activity 
+
+#### AverageTimeBodyAccelerationSTDY
+  - Averages of TimeBodyAccelerationSTDY for each student and activity 
+
+#### AverageTimeBodyAccelerationSTDZ
+  - Averages of TimeBodyAccelerationSTDZ for each student and activity 
+
+#### AverageTimeimeGravityAccelerationMeanX
+  - Averages of TimeGravityAccelerationMeanX for each student and activity 
+
+#### AverageTimeimeGravityAccelerationMeanY
+  - Averages of TimeGravityAccelerationMeanY for each student and activity 
+
+#### AverageTimeimeGravityAccelerationMeanZ
+  - Averages of TimeGravityAccelerationMeanZ for each student and activity 
+
+#### AverageTimeimeGravityAccelerationSTDX
+  - Averages of TimeGravityAccelerationSTDX for each student and activity 
+
+#### AverageTimeimeGravityAccelerationSTDY
+  - Averages of TimeGravityAccelerationSTDY for each student and activity 
+
+#### AverageTimeimeGravityAccelerationSTDZ
+  - Averages of TimeGravityAccelerationSTDZ for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkMeanX
+  - Averages of TimeBodyAccelerationJerkMeanX for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkMeanY
+  - Averages of TimeBodyAccelerationJerkMeanY for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkMeanZ
+  - Averages of TimeBodyAccelerationJerkMeanZ for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkSTDX
+  - Averages of TimeBodyAccelerationJerkSTDX for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkSTDY
+  - Averages of TimeBodyAccelerationJerkSTDY for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkSTDZ
+  - Averages of TimeBodyAccelerationJerkSTDZ for each student and activity 
+
+#### AverageTimeimeBodyGyroMeanX
+  - Averages of TimeBodyGyroMeanX for each student and activity 
+
+#### AverageTimeimeBodyGyroMeanY
+  - Averages of TimeBodyGyroMeanY for each student and activity 
+
+#### AverageTimeimeBodyGyroMeanZ
+  - Averages of TimeBodyGyroMeanZ for each student and activity 
+
+#### AverageTimeimeBodyGyroSTDX
+  - Averages of TimeBodyGyroSTDX for each student and activity 
+
+#### AverageTimeimeBodyGyroSTDY
+  - Averages of TimeBodyGyroSTDY for each student and activity 
+
+#### AverageTimeimeBodyGyroSTDZ
+  - Averages of TimeBodyGyroSTDZ for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkMeanX
+  - Averages of TimeBodyGyroJerkMeanX for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkMeanY
+  - Averages of TimeBodyGyroJerkMeanY for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkMeanZ
+  - Averages of TimeBodyGyroJerkMeanZ for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkSTDX
+  - Averages of TimeBodyGyroJerkSTDX for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkSTDY
+  - Averages of TimeBodyGyroJerkSTDY for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkSTDZ
+  - Averages of TimeBodyGyroJerkSTDZ for each student and activity 
+
+#### AverageTimeimeBodyAccelerationMagMean
+  - Averages of TimeBodyAccelerationMagMean for each student and activity 
+
+#### AverageTimeimeBodyAccelerationMagSTD
+  - Averages of TimeBodyAccelerationMagSTD for each student and activity 
+
+#### AverageTimeimeGravityAccelerationMagMean
+  - Averages of TimeGravityAccelerationMagMean for each student and activity 
+
+#### AverageTimeimeGravityAccelerationMagSTD
+  - Averages of TimeGravityAccelerationMagSTD for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkMagMean
+  - Averages of TimeBodyAccelerationJerkMagMean for each student and activity 
+
+#### AverageTimeimeBodyAccelerationJerkMagSTD
+  - Averages of TimeBodyAccelerationJerkMagSTD for each student and activity 
+
+#### AverageTimeimeBodyGyroMagMean
+  - Averages of TimeBodyGyroMagMean for each student and activity 
+
+#### AverageTimeimeBodyGyroMagSTD
+  - Averages of TimeBodyGyroMagSTD for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkMagMean
+  - Averages of TimeBodyGyroJerkMagMean for each student and activity 
+
+#### AverageTimeimeBodyGyroJerkMagSTD
+  - Averages of TimeBodyGyroJerkMagSTD for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanX
+  - Averages of freqBodyAccelerationMeanX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanY
+  - Averages of freqBodyAccelerationMeanY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanZ
+  - Averages of freqBodyAccelerationMeanZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationSTDX
+  - Averages of freqBodyAccelerationSTDX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationSTDY
+  - Averages of freqBodyAccelerationSTDY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationSTDZ
+  - Averages of freqBodyAccelerationSTDZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanFreqX
+  - Averages of freqBodyAccelerationMeanFreqX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanFreqY
+  - Averages of freqBodyAccelerationMeanFreqY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMeanFreqZ
+  - Averages of freqBodyAccelerationMeanFreqZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanX
+  - Averages of freqBodyAccelerationJerkMeanX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanY
+  - Averages of freqBodyAccelerationJerkMeanY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanZ
+  - Averages of freqBodyAccelerationJerkMeanZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkSTDX
+  - Averages of freqBodyAccelerationJerkSTDX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkSTDY
+  - Averages of freqBodyAccelerationJerkSTDY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkSTDZ
+  - Averages of freqBodyAccelerationJerkSTDZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanFreqX
+  - Averages of freqBodyAccelerationJerkMeanFreqX for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanFreqY
+  - Averages of freqBodyAccelerationJerkMeanFreqY for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationJerkMeanFreqZ
+  - Averages of freqBodyAccelerationJerkMeanFreqZ for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanX
+  - Averages of freqBodyGyroMeanX for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanY
+  - Averages of freqBodyGyroMeanY for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanZ
+  - Averages of freqBodyGyroMeanZ for each student and activity 
+
+#### AverageFrequencyreqBodyGyroSTDX
+  - Averages of freqBodyGyroSTDX for each student and activity 
+
+#### AverageFrequencyreqBodyGyroSTDY
+  - Averages of freqBodyGyroSTDY for each student and activity 
+
+#### AverageFrequencyreqBodyGyroSTDZ
+  - Averages of freqBodyGyroSTDZ for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanFreqX
+  - Averages of freqBodyGyroMeanFreqX for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanFreqY
+  - Averages of freqBodyGyroMeanFreqY for each student and activity 
+
+#### AverageFrequencyreqBodyGyroMeanFreqZ
+  - Averages of freqBodyGyroMeanFreqZ for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMagMean
+  - Averages of freqBodyAccelerationMagMean for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMagSTD
+  - Averages of freqBodyAccelerationMagSTD for each student and activity 
+
+#### AverageFrequencyreqBodyAccelerationMagMeanFreq
+  - Averages for freqBodyAccelerationMagMeanFreq for each student and activity 
+
+#### AverageFrequencyreqBodyBodyAccelerationJerkMagMean
+  - Averages of freqBodyBodyAccelerationJerkMagMean for each student and activity 
+
+#### AverageFrequencyreqBodyBodyAccelerationJerkMagSTD
+  - Averages of Mean Acceleration in the X direction for each student and activity 
+
+#### AverageFrequencyreqBodyBodyAccelerationJerkMagMeanFreq
+  - Averages of freqBodyBodyAccelerationJerkMagMeanFreq for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroMagMean
+  - Averages of freqBodyBodyGyroMagMean for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroMagSTD
+  - Averages of freqBodyBodyGyroMagSTD for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroMagMeanFreq
+  - Averages of  freqBodyBodyGyroMagMeanFreq for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroJerkMagMean
+  - Averages of freqBodyBodyGyroJerkMagMean for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroJerkMagSTD
+  - Averages of freqBodyBodyGyroJerkMagSTD for each student and activity 
+
+#### AverageFrequencyreqBodyBodyGyroJerkMagMeanFreq
+  - Averages of freqBodyBodyGyroJerkMagMeanFreq for each student and activity 
+
+#### AverageAngleTimeBodyAccelerationMeangravity
+  - Averages of angleTimeBodyAccelerationMeangravity for each student and activity 
+
+#### AverageAngleTimeBodyAccelerationJerkMeangravityMean
+  - Averages of angleTimeBodyAccelerationJerkMeangravityMean for each student and activity 
+
+#### AverageAngleTimeBodyGyroMeangravityMean
+  - Averages of angleTimeBodyGyroMeangravityMean for each student and activity 
+
+#### AverageAngleTimeBodyGyroJerkMeangravityMean
+  - Averages of angleTimeBodyGyroJerkMeangravityMean  for each student and activity 
+
+#### AverageAngleXgravityMean
+  - Averages of Mean angle/gravity in the X direction for each student and activity 
+
+#### AverageAngleYgravityMean
+  - Averages of Mean angle/gravity in the Y direction for each student and activity 
+
+#### AverageAngleZgravityMean
+  - Averages of Mean angle/gravity in the X direction for each student and activity 
